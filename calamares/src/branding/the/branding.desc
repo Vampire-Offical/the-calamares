@@ -25,7 +25,7 @@ strings:
     shortProductName:    Vampire
     version:             1 LTS
     shortVersion:        1
-    versionedName:       Wellcome to Vampire OS
+    versionedName:       Vampire OS
     shortVersionedName:  Vampire Os.
     bootloaderEntryName: Vampire Os
     #productUrl:          https://github.com/alexfeed1990/thelinux
