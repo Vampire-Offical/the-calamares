@@ -25,14 +25,14 @@ strings:
     shortProductName:    Vampire
     version:             1 LTS
     shortVersion:        1
-    versionedName:       THE GNU/Linux "Starter" Version.
+    versionedName:       Wellcome to Vampire OS
     shortVersionedName:  Vampire Os.
     bootloaderEntryName: Vampire Os
-    productUrl:          https://github.com/alexfeed1990/thelinux
-    supportUrl:          https://github.com/alexfeed1990/THELinux/blob/main/help.md
-    knownIssuesUrl:      https://github.com/alexfeed1990/thelinux/issues
-    releaseNotesUrl:     https://github.com/alexfeed1990/THELinux/blob/main/changelog.md
-    donateUrl:           https://kde.org/community/donations/index.php
+    #productUrl:          https://github.com/alexfeed1990/thelinux
+    #supportUrl:          https://github.com/alexfeed1990/THELinux/blob/main/help.md
+    #knownIssuesUrl:      https://github.com/alexfeed1990/thelinux/issues
+    #releaseNotesUrl:     https://github.com/alexfeed1990/THELinux/blob/main/changelog.md
+    #donateUrl:           https://kde.org/community/donations/index.php
 
 images:
     productIcon:         "logo.png"

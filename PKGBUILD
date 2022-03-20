@@ -4,7 +4,7 @@ pkgrel=0.1
 pkgdesc='Distribution-independent installer framework'
 arch=('x86_64')
 license=(GPL)
-url="https://github.com/alexfeed1990/the-calamares"
+url="https://github.com/Vampire-Offical/the-calamares"
 license=('LGPL')
 depends=('kconfig' 'kcoreaddons' 'kiconthemes' 'ki18n' 'kio' 'solid' 'yaml-cpp' 'mkinitcpio-openswap'
          'boost-libs' 'ckbcomp' 'hwinfo' 'qt5-svg' 'polkit-qt5' 'gtk-update-icon-cache' 'plasma-framework'
