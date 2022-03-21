@@ -5,4 +5,3 @@ rm -rf pkg
 makepkg -s
 
 
-cp -r *.zst /home/${whoami}/Desktop/repo/
