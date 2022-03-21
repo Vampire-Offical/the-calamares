@@ -1,5 +1,5 @@
 pkgname=calamares
-pkgver=3.2.46
+pkgver=3.2.47
 pkgrel=0.1
 pkgdesc='Distribution-independent installer framework'
 arch=('x86_64')
