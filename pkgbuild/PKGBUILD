@@ -1,6 +1,6 @@
 pkgname=calamares
-pkgver=3.2.47
-pkgrel=0.1
+pkgver=r11.2532923
+pkgrel=1
 pkgdesc='Distribution-independent installer framework'
 arch=('x86_64')
 license=(GPL)
@@ -12,6 +12,15 @@ depends=('kconfig' 'kcoreaddons' 'kiconthemes' 'ki18n' 'kio' 'solid' 'yaml-cpp' 
 makedepends=('extra-cmake-modules' 'qt5-tools' 'qt5-translations' 'git' 'boost')
 source+=("git+$url.git")
 sha256sums=('SKIP')
+
+
+pkgver() {
+  cd "$srcdir/the-calamares"
+
+  #printf "%s" "$(git describe --long | sed 's/\([^-]*-\)g/r\1/;s/-/./g')"
+  printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+}
+
 
 prepare() {
 	cd the-calamares/calamares
