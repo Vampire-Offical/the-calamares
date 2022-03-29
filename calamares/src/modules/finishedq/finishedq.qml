@@ -60,12 +60,12 @@ Page {
         anchors.centerIn: parent
         spacing: 6
 
-        Button {
-            id: button
-            text: qsTr("Close Installer")
-            icon.name: "application-exit"
-            onClicked: { ViewManager.quit(); }
-        }
+        // Button {
+        //     id: button
+        //     text: qsTr("Close Installer")
+        //     icon.name: "application-exit"
+        //     onClicked: { ViewManager.quit(); }
+        // }
 
         Button {
             text: qsTr("Restart System")
