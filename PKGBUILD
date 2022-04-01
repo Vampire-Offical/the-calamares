@@ -13,6 +13,15 @@ makedepends=('extra-cmake-modules' 'qt5-tools' 'qt5-translations' 'git' 'boost')
 source+=("git+$url.git")
 sha256sums=('SKIP')
 
+
+pkgver() {
+  cd "$srcdir/the-calamares"
+
+  #printf "%s" "$(git describe --long | sed 's/\([^-]*-\)g/r\1/;s/-/./g')"
+  printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+}
+
+
 prepare() {
 	cd the-calamares/calamares
 	sed -i -e 's/"Install configuration files" OFF/"Install configuration files" ON/' CMakeLists.txt
